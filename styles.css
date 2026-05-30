@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+    background-color: #9b59b6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   /* Important */
+    gap: 20px;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.btn,
+.stop {
+    width: 150px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	background-color:purple;
+	color:white;
+}
